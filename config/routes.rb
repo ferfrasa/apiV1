@@ -3,8 +3,8 @@ Rails.application.routes.draw do
 
   namespace 'api' do
     namespace 'v1' do
-      resource :posts  #Controlador con singular miniscula
-      resource :users
+      resources :posts  #Controlador con plural  miniscula
+      resources :users
     end
     end  
 end
